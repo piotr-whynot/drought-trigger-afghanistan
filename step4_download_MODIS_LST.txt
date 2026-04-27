@@ -1,0 +1,14 @@
+to download MODIS data go to:
+
+https://search.earthdata.nasa.gov/search/granules?p=C2565788897-LPCLOUD
+
+You will need to set up a username and password on the Earthdata system.
+
+Data are available with ~8 days latency, i.e. data for March will be available around 8th of April. 
+
+select the file for the required month and download it into data/MODIS_LST directory. The file should have a nama like this:
+
+MOD11C3.A2026060.061.2026091094145.hdf
+the A2026060 denotes date of the file in the AYYYYJJ format, where YYYY is year and JJ is julian day, or day of year. In the above case the date is thus 1 March 2026 (it's 60th day of year). Data will be for the month of March.
+
+
